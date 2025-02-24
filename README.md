@@ -1,4 +1,3 @@
-![GIF](todos.gif)
 this repo contains the source code for a to-do list application written in three different ways:
 
 # Basic Flask
