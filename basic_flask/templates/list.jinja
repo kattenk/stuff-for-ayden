@@ -1,0 +1,20 @@
+{% if items %}
+    <ul>
+        {% for index, item in items %}
+            <li>
+                <form action="/remove-item" method="POST">
+                    <label>{{ item }}</label>
+                    <input type="hidden" name="index" value="{{ index }}">
+                    <button type="submit">❌</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Your to-do list is empty.</p>
+{% endif %}
+
+<form action="/new-item" method="POST">
+    <input type="text" placeholder="Add new item" name="new_item" required>
+    <button type="submit">Add Item</button>
+</form>
