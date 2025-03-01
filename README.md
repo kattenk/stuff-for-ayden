@@ -10,4 +10,5 @@ a React-based JavaScript frontend that hooks up to a Flask-based Python backend,
 # JS no React
 To-do list implemented with REST but without using React, it is intended to show how React helps.
 # React Chat
-A chat application using web sockets, meant as a more advanced example that also uses React
+A chat application using web sockets, meant as a more advanced example that also uses React.
+you will need the [`flask-socketio`](https://flask-socketio.readthedocs.io/en/latest/) package installed, as well as [`flask-cors`](https://flask-cors.readthedocs.io/en/latest/) and maybe other things.
