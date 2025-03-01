@@ -7,3 +7,7 @@ Adds a database, using the [`flask-sqlalchemy`](https://flask-sqlalchemy.readthe
 otherwise it is the same as the basic flask demo.
 # React with REST
 a React-based JavaScript frontend that hooks up to a Flask-based Python backend, the frontend and backend use an API designed in REST fashion to communicate, and items are stored in a database as before.
+# React no JS
+To-do list implemented with REST but without using React, it is intended to show how React helps.
+# React Chat
+A chat application using web sockets, meant as a more advanced example that also uses React
